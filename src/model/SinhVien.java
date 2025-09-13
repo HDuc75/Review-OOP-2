@@ -30,7 +30,7 @@ public class SinhVien {
 		}
 
 		public void setMaSinhVien(String maSinhVien) {
-			MaSinhVien = maSinhVien;
+			this.MaSinhVien = maSinhVien;
 		}
 
 		public String getHoTen() {
@@ -38,7 +38,7 @@ public class SinhVien {
 		}
 
 		public void setHoTen(String hoTen) {
-			HoTen = hoTen;
+			this.HoTen = hoTen;
 		}
 
 		public LocalDate getNgaySinh() {
@@ -46,7 +46,7 @@ public class SinhVien {
 		}
 
 		public void setNgaySinh(LocalDate ngaySinh) {
-			NgaySinh = ngaySinh;
+			this.NgaySinh = ngaySinh;
 		}
 
 		public String getNganhDaoTao() {
@@ -54,7 +54,7 @@ public class SinhVien {
 		}
 
 		public void setNganhDaoTao(String nganhDaoTao) {
-			NganhDaoTao = nganhDaoTao;
+			this.NganhDaoTao = nganhDaoTao;
 		}
 
 		public double getDiemTrungBinh() {
@@ -62,7 +62,7 @@ public class SinhVien {
 		}
 
 		public void setDiemTrungBinh(double diemTrungBinh) {
-			DiemTrungBinh = diemTrungBinh;
+			this.DiemTrungBinh = diemTrungBinh;
 		}
 
 		public String getLopSinhHoat() {
@@ -70,7 +70,7 @@ public class SinhVien {
 		}
 
 		public void setLopSinhHoat(String lopSinhHoat) {
-			LopSinhHoat = lopSinhHoat;
+			this.LopSinhHoat = lopSinhHoat;
 		}
 		
 		@Override

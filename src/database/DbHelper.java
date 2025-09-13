@@ -17,12 +17,12 @@ public class DbHelper {
 
     public static void createTableIfNotExists() throws SQLException {
         String sql = "CREATE TABLE IF NOT EXISTS students (" +
-                "student_id VARCHAR(10) PRIMARY KEY," +
-                "full_name VARCHAR(100)," +
-                "dob DATE," +
-                "major VARCHAR(10)," +
-                "gpa DOUBLE," +
-                "class_name VARCHAR(50)" +
+                "MaSinhVien VARCHAR(10) PRIMARY KEY," +
+                "HoTen VARCHAR(100)," +
+                "NgaySinh DATE," +
+                "NganhDaoTao VARCHAR(50)," +
+                "DiemTrungBinh DOUBLE," +
+                "LopSinhHoat VARCHAR(50)" +
                 ")";
         try (Connection conn = getConnection(); Statement st = conn.createStatement()) {
             st.execute(sql);
