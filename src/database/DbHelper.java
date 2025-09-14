@@ -7,7 +7,7 @@ public class DbHelper {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-            System.out.println("Warning: MySQL driver not found on classpath. Add mysql-connector-java.jar");
+            System.out.println("Warning: MySQL driver not found on classpath");
         }
     }
 
