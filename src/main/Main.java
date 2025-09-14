@@ -37,7 +37,7 @@ public class Main {
                 case "7": printSortedByGpa(); break;
                 case "8": printByBirthMonth(); break;
                 case "9": insertSamples(); break;
-                case "10": run = false; break;
+            
                 default: System.out.println("Chọn không hợp lệ.");
             }
         }
@@ -47,16 +47,15 @@ public class Main {
     private static void showMenu() {
         System.out.println();
         System.out.println("1. Thêm sinh viên");
-        System.out.println("2. Xóa sinh viên");
+        System.out.println("2. Xóa sinh viên ");
         System.out.println("3. Sửa sinh viên");
-        System.out.println("4. In toàn bộ sinh viên");
-        System.out.println("5. In danh sách theo lớp");
-        System.out.println("6. In danh sách theo ngành");
+        System.out.println("4. In danh sách theo lớp sinh hoạt");
+        System.out.println("5. In toàn bộ sinh viên");
+        System.out.println("6. In danh sách sinh viên của một ngành (CNTT/KTPM)");
         System.out.println("7. In danh sách sắp xếp theo điểm trung bình");
         System.out.println("8. In sinh viên sinh vào tháng X");
-        System.out.println("9. Thêm 10 sinh viên mẫu");
-        System.out.println("10. Thoát");
-        System.out.print("Hãy chọn: ");
+        System.out.println("9. Thoát");
+        System.out.print("Hãy chọn:");
     }
 
     private static void addStudent() {
